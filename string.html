@@ -1,0 +1,84 @@
+<html>
+<head>
+<script type="text/javascript">
+function charat()
+{
+str="Hello"
+alert("The charat() returns the charcter of given index"+"\n"+"charcter at index 3 in Hello is ="+str.charAt(3));
+}
+function concat()
+{
+str="Hello"
+str2="Imrd"
+alert("It combine two string"+"\n"+"First string :Hello"+"\n"+"second string:Imrd"+"\n="+str.concat(str2));
+}
+function indexof()
+{
+str="Hello"
+alert("The indexof() return index\n index of e in Hello is="+str.indexOf("e"));
+}
+function lastindexof()
+{
+str="Hello"
+alert("The lastIndexOf() return the index from right side\nindex of l in Hello is="+str.lastIndexOf("l"));
+}
+function search()
+{
+str="Hello"
+alert("It search charcter in given string and return index\nstring is Hello\nif we enter H, it returns="+str.search("H"));
+}
+function replace()
+{
+str="Hello"
+alert("string is Hello\nHel replace with Hi="+str.replace("Hel","Hi"));
+}
+function substr()
+{
+str="Hello"
+alert("string is Hello\nIf we enter (0,3) it returns="+str.substr(0,3));
+}
+function slice()
+{
+str="Hello"
+alert("string is Hello\nIf we enter (0,4), it returns="+str.slice(0,4));
+}
+function tolowercase()
+{
+str="Hello"
+alert("string is Hello\nIn lower case="+str.toLowerCase());
+}
+function touppercase()
+{
+str="Hello"
+alert("string is Hello\n In upper case="+str.toUpperCase());
+}
+function trim()
+{
+str="Hello"
+alert("string is Hello \nstring after trim="+str.trim());
+}
+</script></head>
+<body bgcolor="pink"><table bgcolor="lightgreen"border="1">
+<form><h1 align="center">String Function</h1><tr>
+<input type="button" value="charAt" onclick="charat()"><br>
+
+<input type="button" value="concat" onclick="concat()"><br>
+
+<input type="button" value="indexOf" onclick="indexof()"><br>
+
+<input type="button" value="lastIndexOf" onclick="lastindexof()"><br>
+
+<input type="button" value="search" onclick="search()"><br>
+
+<input type="button" value="replace" onclick="replace()"><br>
+
+<input type="button" value="substr" onclick="substr()"><br>
+
+<input type="button" value="slice" onclick="slice()"><br>
+<input type="button" value="toLowerCase" onclick="tolowercase()"><br>
+
+<input type="button" value="toUpperCase" onclick="touppercase()"><br>
+
+<input type="button" value="trim" onclick="trim()">
+</body>
+</html>
