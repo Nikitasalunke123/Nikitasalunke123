@@ -1,0 +1,68 @@
+<html>
+<head>
+<script language="javascript">
+function checkname()
+{
+ s=document.getElementById("name")
+ if(s.length==-1)
+ {
+  alert("name should not blank")
+  document.getElementById("name").focus()
+  }
+ }
+ 
+ function checklname()
+ {
+ j=document.getElementById("lname")
+ if(j.length==-1)
+ {
+ alert("name should not blank")
+ document.getElementById("lname").focus()
+ }
+ }
+ 
+ function greetmsg()
+ {
+   alert("welcome on our website")
+  }
+   
+   function bymsg()
+   {
+   alert("Good By!!!")
+   }
+  
+  function showfullname()
+  {
+    f=document.getElementById("name").value
+    s=document.getElementById("lname").value
+    fn=(f+" " +s)
+    document.getElementById("fname").value=fn
+   }
+   
+   function checkblank()
+   {
+   fn=document.getElementById("fname").value
+   if(fn.length==-1)
+   {
+   alert("fullname can not be blank")
+   document.getElementById("fname").focus()
+   }
+   }
+   
+   
+</script>
+</head>
+<body onload="greetmsg()" onunload="bymsg()"  bgcolor="pink">
+<form>
+<h1 align=center style="background-color:blue">Registration Form</h1>
+First Name:<input type="text" id="name" onblur="checkname()" style="background-color:red;color:white;width:150px;
+height:40px;"><br><br>
+Last Name:<input type="text" id="lname" onchang="checklname()"  style="background-color:red;color:white;width:150px;
+height:40px;"><br><br>
+Full Name:<input type="text" id="fname" onfocus="showfullname()" style="background-color:red;color:white;width:150px;
+height:40px;"><br><br>
+<center><input type="button" id="fname" value="Click Me" onclick="bymsg()" style="background-color:black;color:white;width:150px;
+height:40px;"><br></center>
+</form>
+</body>
+</html>
