@@ -1,0 +1,34 @@
+<html>
+<head>
+<title></title>
+<script type="text/javascript">
+function dialogue()
+{
+ alert("hello i am alert box!");
+}
+function getConfirmation()
+{
+  var retVel=confirm("Do you want to continue?");
+   if(retVal==true){
+   document.write("user wants to continue!");
+   return true;
+ }
+ else
+   {
+    document.write("user does not want to continue");
+    return false;
+   }
+ }
+ function getValue()
+ {
+   var retVal=prompt("Enter your name:","your name here");
+   document.write("your Name is:"+retVal);
+ }
+ </script>
+ </head>
+ <body>
+ Alert Box=<input type="button" value="click me" onclick="dialogue()"><br><br>
+ confirmation Box=<input type="button" value="click me" onclick="getConfirmation()"><br><br>
+ promt Box=<input type="button" value="click me" onclick="getValue()"><br>
+ </body>
+ </html>
