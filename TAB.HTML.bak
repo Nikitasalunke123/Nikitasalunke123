@@ -1,0 +1,13 @@
+<html>
+<head >
+<link rel="stylesheet" href="table.css">
+</head>
+<body BGCOLOR="AQUA">
+<table BORDER="2">
+<TR>
+<TH>INTERNAL CSS</TH>
+<TH>EXTERNAL CSS</TH>
+<TH>INLINE CSS</TH></TR><TR><TD>Internal or Embedded CSS: This can be used when a single HTML document must be styled uniquely. </TD><TD>An external style sheet is a separate CSS file that can be accessed by creating a link within the head section of the webpage.</TD><TD>Inlining CSS refers to the practice of integrating a portion of the code directly into the place where it will be used.</TD></TR>
+</TABLE>
+</BODY>
+</HTML>
