@@ -1,0 +1,21 @@
+<html>
+<head>
+<script type="text/javascript">
+function cube()
+{
+ var cube,a;
+ a=eval(document.getElementById("num").value);
+ //formula
+ cube=a*a*a;
+ document.getElementById("result").value=cube;
+}</script>
+</head>
+<body>
+<form>
+<h1>Find cube root of given number</h1>
+Enter number<input type="text" id="num"><br><br>
+            <input type="button" value="ckeck" id="btn" onclick="cube()"><br><br>
+Result<input type="text" id="result">
+</form>
+</body>
+</html>
