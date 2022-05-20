@@ -1,0 +1,20 @@
+<html>
+<head>
+<script type="text/javascript">
+ function table()
+ {
+  no=eval(document.getElementById("textno").value)
+  for(i=1;i<=10;i++)
+  {
+   document.write(i*no+"<br>")
+  }
+ }
+ </script>
+ </head>
+ <body>
+ <form>
+ Enter no<input type="text" id="textno">
+ <input type="button" onclick="table()" value="show table">
+ </button>
+ </body>
+ </html>
